@@ -1,0 +1,76 @@
+15:248  14:442  Found UEFI Acpi 2.0 RSDP at 7CEFD014
+15:248  0:000  Saving ACPI tables from RSDP 7CEFD014 to EFI\CLOVER\ACPI\origin ...
+15:248  0:000   7CEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+15:258  0:009    (Xsdt: 7CEFD170, Rsdt: 7CEFD0D4)
+15:258  0:000    7CEFD170: 'XSDT', 'SKL-ULT', Rev: 1, Len: 252 -> XSDT.aml
+15:260  0:002    7CEFD0D4: 'RSDT', 'SKL-ULT', Rev: 1, Len: 144 -> RSDT.aml
+15:262  0:002    Tables in Xsdt: 27
+15:262  0:000    0. 7CEE9000: 'FACP', 'SKL-ULT', Rev: 5, Len: 244 -> FACP.aml
+15:265  0:002        (Dsdt: 7CEC7000, Facs: 7CE68000, XDsdt: 7CEC7000, XFacs: 0)
+15:265  0:000        7CEC7000: 'DSDT', 'SKL-ULT', Rev: 2, Len: 117116 -> DSDT.aml
+15:278  0:013        7CE68000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+15:281  0:002    1. 7CEFC000: 'TCPA', 'SKL-ULT', Rev: 2, Len: 50 -> TCPA.aml
+15:283  0:002    2. 7CEFB000: 'UEFI', 'SKL-ULT', Rev: 1, Len: 566 -> UEFI.aml
+15:286  0:002    3. 7CEFA000: 'UEFI', 'SKL-ULT', Rev: 1, Len: 66 -> UEFI.aml
+15:291  0:004    4. 7CEF9000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 1207 -> SSDT-0-SKL-ULT.aml
+15:293  0:002    5. 7CEF8000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 75 -> SSDT-1-SKL-ULT.aml
+15:297  0:003    6. 7CEF7000: 'TPM2', 'SKL-ULT', Rev: 3, Len: 52 -> TPM2.aml
+15:300  0:002    7. 7CEF6000: 'MSDM', 'SKL-ULT', Rev: 3, Len: 85 -> MSDM.aml
+15:302  0:002    8. 7CEF0000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 20528 -> SSDT-2-SKL-ULT.aml
+15:305  0:002    9. 7CEEF000: 'DBGP', 'SKL-ULT', Rev: 1, Len: 52 -> DBGP.aml
+15:308  0:002    10. 7CEEE000: 'DBG2', 'SKL-ULT', Rev: 0, Len: 84 -> DBG2.aml
+15:310  0:002    11. 7CEED000: 'ASF!', 'SKL-ULT', Rev: 32, Len: 165 -> ASF!.aml
+15:313  0:002    12. 7CEEC000: 'ASPT', 'SKL-ULT', Rev: 7, Len: 52 -> ASPT.aml
+15:315  0:002    13. 7CEEB000: 'BOOT', 'SKL-ULT', Rev: 1, Len: 40 -> BOOT.aml
+15:318  0:002    14. 7CEEA000: 'DBGP', 'SKL-ULT', Rev: 1, Len: 52 -> DBGP.aml
+15:322  0:004    15. 7CEE8000: 'HPET', 'SKL-ULT', Rev: 1, Len: 56 -> HPET.aml
+15:324  0:002    16. 7CEE7000: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148 -> LPIT.aml
+15:327  0:002    17. 7CEE6000: 'APIC', 'SKL-ULT', Rev: 3, Len: 188 -> APIC.aml
+15:329  0:002    18. 7CEE5000: 'MCFG', 'SKL-ULT', Rev: 1, Len: 60 -> MCFG.aml
+15:332  0:002    19. 7CEC6000: 'SSDT', 'SKL-ULT', Rev: 1, Len: 521 -> SSDT-3-SKL-ULT.aml
+15:335  0:003    20. 7CEC5000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 3787 -> SSDT-4-SKL-ULT.aml
+15:338  0:002    21. 7CEC4000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 410 -> SSDT-5-SKL-ULT.aml
+15:340  0:002    22. 7CEC3000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 3699 -> SSDT-6-SKL-ULT.aml (Found hidden SSDT 7 pcs)
+15:343  0:002        * 7BAA6698: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1566  53 53 44 54 1E 06 00 00 02 16 50 6D 52 65 66 00 Internal length = 1566 -> SSDT-x6_0-Cpu0Ist.aml
+15:345  0:002        * 7BAA5618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 DD 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x6_1-ApIst.aml
+15:348  0:003        * 7BAA5C18: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 895  53 53 44 54 7F 03 00 00 02 74 50 6D 52 65 66 00 Internal length = 895 -> SSDT-x6_2-Cpu0Cst.aml
+15:351  0:002        * 7BAA4D98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 F9 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_3-ApCst.aml
+15:354  0:002        * 6BF3C018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 142  53 53 44 54 8E 00 00 00 02 3A 50 6D 52 65 66 00 Internal length = 142 -> SSDT-x6_4-Cpu0Hwp.aml
+15:356  0:002        * 6BFBF018: 'SSDT', 'ApHwp', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 0C 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x6_5-ApHwp.aml
+15:359  0:002        * 6BF27D98: 'SSDT', 'HwpLvt', Rev: 2, Len: 304  53 53 44 54 30 01 00 00 02 94 50 6D 52 65 66 00 Internal length = 304 -> SSDT-x6_6-HwpLvt.aml
+15:362  0:003  
+15:362  0:000    23. 7CEBF000: 'SSDT', 'SKL-ULT', Rev: 1, Len: 14363 -> SSDT-7-SKL-ULT.aml
+15:367  0:004    24. 7CEBE000: 'DMAR', 'SKL-ULT', Rev: 1, Len: 168 -> DMAR.aml
+15:369  0:002    25. 7CEE4000: 'FPDT', 'SKL-ULT', Rev: 1, Len: 68 -> FPDT.aml
+15:372  0:003    26. 7CEBD000: 'BGRT', 'SKL-ULT', Rev: 1, Len: 56 -> BGRT.aml
+15:389  0:017    Tables in Rsdt: 27
+15:389  0:000    0. 7CEE9000: 'FACP', 'SKL-ULT', Rev: 5, Len: 244
+15:389  0:000        (Dsdt: 7CEC7000, Facs: 7CE68000, XDsdt: 7CEC7000, XFacs: 0)
+15:389  0:000        7CEC7000: 'DSDT', 'SKL-ULT', Rev: 2, Len: 117116
+15:391  0:001        7CE68000: 'FACS', Ver: 2, Len: 64
+15:391  0:000    1. 7CEFC000: 'TCPA', 'SKL-ULT', Rev: 2, Len: 50
+15:391  0:000    2. 7CEFB000: 'UEFI', 'SKL-ULT', Rev: 1, Len: 566
+15:391  0:000    3. 7CEFA000: 'UEFI', 'SKL-ULT', Rev: 1, Len: 66
+15:391  0:000    4. 7CEF9000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 1207
+15:391  0:000    5. 7CEF8000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 75
+15:391  0:000    6. 7CEF7000: 'TPM2', 'SKL-ULT', Rev: 3, Len: 52
+15:391  0:000    7. 7CEF6000: 'MSDM', 'SKL-ULT', Rev: 3, Len: 85
+15:391  0:000    8. 7CEF0000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 20528
+15:391  0:000    9. 7CEEF000: 'DBGP', 'SKL-ULT', Rev: 1, Len: 52
+15:391  0:000    10. 7CEEE000: 'DBG2', 'SKL-ULT', Rev: 0, Len: 84
+15:391  0:000    11. 7CEED000: 'ASF!', 'SKL-ULT', Rev: 32, Len: 165
+15:391  0:000    12. 7CEEC000: 'ASPT', 'SKL-ULT', Rev: 7, Len: 52
+15:391  0:000    13. 7CEEB000: 'BOOT', 'SKL-ULT', Rev: 1, Len: 40
+15:391  0:000    14. 7CEEA000: 'DBGP', 'SKL-ULT', Rev: 1, Len: 52
+15:391  0:000    15. 7CEE8000: 'HPET', 'SKL-ULT', Rev: 1, Len: 56
+15:391  0:000    16. 7CEE7000: 'LPIT', 'SKL-ULT', Rev: 1, Len: 148
+15:391  0:000    17. 7CEE6000: 'APIC', 'SKL-ULT', Rev: 3, Len: 188
+15:391  0:000    18. 7CEE5000: 'MCFG', 'SKL-ULT', Rev: 1, Len: 60
+15:391  0:000    19. 7CEC6000: 'SSDT', 'SKL-ULT', Rev: 1, Len: 521
+15:391  0:000    20. 7CEC5000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 3787
+15:391  0:000    21. 7CEC4000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 410
+15:391  0:000    22. 7CEC3000: 'SSDT', 'SKL-ULT', Rev: 2, Len: 3699
+15:391  0:000    23. 7CEBF000: 'SSDT', 'SKL-ULT', Rev: 1, Len: 14363
+15:391  0:000    24. 7CEBE000: 'DMAR', 'SKL-ULT', Rev: 1, Len: 168
+15:391  0:000    25. 7CEE4000: 'FPDT', 'SKL-ULT', Rev: 1, Len: 68
+15:391  0:000    26. 7CEBD000: 'BGRT', 'SKL-ULT', Rev: 1, Len: 56
