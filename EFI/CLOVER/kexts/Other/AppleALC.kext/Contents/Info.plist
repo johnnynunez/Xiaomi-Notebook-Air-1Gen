@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18A347e</string>
+	<string>18A353d</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -1199,6 +1199,31 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>99</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>Rockjesus - Realtek ALC256 (3246) - dell 7559</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccAAEnHQEBJx6mAScfmQFHHBABRx0BAUce
+					FwFHH5kCFxwgAhcdEAIXHiECFx8BAbcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>11</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
@@ -3430,6 +3455,26 @@
 					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>hieplpvip - Realtek ALC295 Asus UX430</string>
+					<key>CodecID</key>
+					<integer>283902613</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccEAEnHQEBJx6gAScfkAF3HCABdx0BAXce
+					FwF3H5AB1xwwAdcdEAHXHoEB1x8DAhccQAIX
+					HRACFx4hAhcfAwIXDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>12</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
