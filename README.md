@@ -13,7 +13,6 @@ USB 3.0 <br />
 Built-in camera <br />
 Built-in mic <br />
 3. What's Not Working <br />
-Card reader <br />
 Wifi Intel <br />
 
 ## Credits
