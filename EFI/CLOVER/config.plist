@@ -14,6 +14,10 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>AddDTGP</key>
+				<true/>
+				<key>AddMCHC</key>
+				<true/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHDA</key>
@@ -24,11 +28,41 @@
 				<true/>
 				<key>FixRTC</key>
 				<false/>
+				<key>FixRegions</key>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1D</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExTA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1C</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExQw==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExSA==
+					</data>
+				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
@@ -214,8 +248,12 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 nv_disable=1 dart=0 npci=0x3000 kext-dev-mode=1 abm_firstpolldelay=10000</string>
+		<string>igfxrst=1 nv_disable=1 dart=0 kext-dev-mode=1 abm_firstpolldelay=10000</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
+		<false/>
+		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
@@ -321,7 +359,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
