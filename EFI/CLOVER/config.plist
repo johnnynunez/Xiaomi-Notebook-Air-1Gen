@@ -17,38 +17,28 @@
 				<key>AddDTGP</key>
 				<true/>
 				<key>AddMCHC</key>
-				<true/>
+				<false/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
+				<key>FixADP1</key>
+				<true/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixRTC</key>
 				<false/>
 				<key>FixRegions</key>
 				<true/>
+				<key>FixShutdown</key>
+				<false/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>Rename _Q1D</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					X1ExTA==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Rename _Q1C</string>
@@ -61,6 +51,20 @@
 					<key>Replace</key>
 					<data>
 					X1ExSA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _Q1D</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExRA==
+					</data>
+					<key>Replace</key>
+					<data>
+					X1ExTA==
 					</data>
 				</dict>
 				<dict>
@@ -249,8 +253,6 @@
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>igfxrst=1 nv_disable=1 dart=0 kext-dev-mode=1 abm_firstpolldelay=10000</string>
-		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<false/>
 		<key>NoEarlyProgress</key>
@@ -356,10 +358,10 @@
 			<key>FixOwnership</key>
 			<true/>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
@@ -643,7 +645,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02718300GUF0V5AD</string>
+		<string>C02744501GUDYW3AD</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -671,7 +673,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>SerialNumber</key>
-		<string>C02TP28OGVC1</string>
+		<string>C02VM0BVGVC1</string>
+		<key>SmUUID</key>
+		<string>06155A8F-A2EE-4426-8B85-313BF07F11C5</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
