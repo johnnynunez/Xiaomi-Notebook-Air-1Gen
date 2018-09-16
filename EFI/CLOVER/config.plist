@@ -33,7 +33,7 @@
 				<key>FixRegions</key>
 				<true/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
