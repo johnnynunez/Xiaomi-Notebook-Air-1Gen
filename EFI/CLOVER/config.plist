@@ -326,11 +326,13 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<false/>
+			<true/>
 			<key>FixOwnership</key>
-			<false/>
+			<true/>
 			<key>HighCurrent</key>
-			<false/>
+			<true/>
+			<key>Inject</key>
+			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
 		<false/>
@@ -440,7 +442,7 @@
 				<key>Comment</key>
 				<string>Skylake APIC fix</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				wegQD7bA
