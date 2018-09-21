@@ -16,6 +16,8 @@
 			<dict>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
+				<key>FixADP1</key>
+				<true/>
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
@@ -24,6 +26,8 @@
 				<true/>
 				<key>FixRTC</key>
 				<false/>
+				<key>FixShutdown</key>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
@@ -236,8 +240,10 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 nv_disable=1 dart=0 npci=0x3000 kext-dev-mode=1 abm_firstpolldelay=10000</string>
+		<string>igfxrst=1 abm_firstpolldelay=10000 dart=0 npci=0x3000 kext-dev-mode=1</string>
 		<key>NeverHibernate</key>
+		<false/>
+		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
@@ -343,7 +349,7 @@
 			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
@@ -627,7 +633,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02718300GUF0V5AD</string>
+		<string>C02632405J9F1168C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -655,7 +661,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>SerialNumber</key>
-		<string>C02TP28OGVC1</string>
+		<string>C02S607DGVC1</string>
+		<key>SmUUID</key>
+		<string>12ED337E-EF9E-46A5-B14D-9E64D74154D2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
