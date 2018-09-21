@@ -24,49 +24,11 @@
 				<true/>
 				<key>FixRTC</key>
 				<false/>
-				<key>FixShutdown</key>
-				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>Rename TPD0._CRS to XCRS</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X0NSUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					WENSUw==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					WENSUw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename TPD0._DSM to XDSM</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X0RTTQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WERTTQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					WENSUw==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>Rename _Q1C</string>
@@ -237,12 +199,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-PluginType1.aml</string>
-		</array>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -280,10 +236,8 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 abm_firstpolldelay=10000 dart=0</string>
+		<string>igfxrst=1 nv_disable=1 dart=0 npci=0x3000 kext-dev-mode=1 abm_firstpolldelay=10000</string>
 		<key>NeverHibernate</key>
-		<false/>
-		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
