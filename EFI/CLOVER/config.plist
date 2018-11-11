@@ -57,14 +57,14 @@
 					<key>Comment</key>
 					<string>Rename TPD0._CRS to XCRS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					Q1JTAKAO
+					X0NSUw==
 					</data>
 					<key>Replace</key>
 					<data>
-					WENSU6AO
+					X1hDUlM=
 					</data>
 				</dict>
 				<dict>
