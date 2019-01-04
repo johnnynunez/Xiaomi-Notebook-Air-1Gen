@@ -15,6 +15,9 @@ Built-in mic <br />
 3. What's Not Working <br />
 Wifi Intel <br />
 
+##Rebuild Cache to work trackpad
+Terminal: sudo kextcache -i /
+
 ## Credits
 
 - [RehabMan](https://github.com/RehabMan) Updated [OS-X-Clover-Laptop-Config](https://github.com/RehabMan/OS-X-Clover-Laptop-Config) and [Laptop-DSDT-Patch](https://github.com/RehabMan/Laptop-DSDT-Patch) and [OS-X-USB-Inject-All](https://github.com/RehabMan/OS-X-USB-Inject-All) for maintenance
