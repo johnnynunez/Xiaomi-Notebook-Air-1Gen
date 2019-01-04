@@ -15,7 +15,7 @@ Built-in mic <br />
 3. What's Not Working <br />
 Wifi Intel <br />
 
-##Rebuild Cache to work trackpad
+## Rebuild Cache to work trackpad
 Terminal: sudo kextcache -i /
 
 ## Credits
