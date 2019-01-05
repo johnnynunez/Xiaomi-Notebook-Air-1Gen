@@ -35,7 +35,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -43,20 +43,6 @@
 					<key>Replace</key>
 					<data>
 					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change MATH to XATH</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					TUFUSA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEFUSA==
 					</data>
 				</dict>
 				<dict>
@@ -239,6 +225,20 @@
 					<key>Replace</key>
 					<data>
 					WFBSVwI=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename Method (_REG,2,N) to (XREG,2,N)</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X1JFRwKgHg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFJFRwKgHg==
 					</data>
 				</dict>
 			</array>
