@@ -22,7 +22,7 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro13,3-XHC</key>
+		<key>MacBookPro13,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
@@ -111,7 +111,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookPro13,3</string>
+			<string>MacBookPro13,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>

@@ -27,7 +27,7 @@
 				<key>FixShutdown</key>
 				<false/>
 				<key>FixTMR</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -258,6 +258,8 @@
 			<false/>
 			<key>Generate</key>
 			<dict>
+				<key>PStates</key>
+				<true/>
 				<key>PluginType</key>
 				<true/>
 			</dict>
@@ -270,7 +272,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 npci=0x2000 dart=0 -cdfon</string>
+		<string>igfxrst=1 -cdfon mbasd=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -603,23 +605,24 @@
 			<key>Inject</key>
 			<true/>
 		</dict>
+		<key>EDID</key>
+		<dict>
+			<key>Inject</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
-		</array>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
