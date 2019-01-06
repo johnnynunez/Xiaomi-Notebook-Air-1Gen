@@ -231,7 +231,7 @@
 					<key>Comment</key>
 					<string>Rename Method (_REG,2,N) to (XREG,2,N)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1JFRwKgHg==
