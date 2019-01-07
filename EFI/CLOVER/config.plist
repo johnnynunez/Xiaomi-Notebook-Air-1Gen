@@ -259,7 +259,7 @@
 			<key>Generate</key>
 			<dict>
 				<key>PStates</key>
-				<true/>
+				<false/>
 				<key>PluginType</key>
 				<true/>
 			</dict>
@@ -608,7 +608,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
@@ -620,7 +620,7 @@
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>KernelLapic</key>
-		<true/>
+		<false/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KernelToPatch</key>
