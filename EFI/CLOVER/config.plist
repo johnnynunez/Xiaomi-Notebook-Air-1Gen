@@ -33,20 +33,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
 					<false/>
