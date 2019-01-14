@@ -24,10 +24,12 @@
 				<false/>
 				<key>FixHPET</key>
 				<false/>
+				<key>FixIPIC</key>
+				<true/>
 				<key>FixShutdown</key>
 				<false/>
 				<key>FixTMR</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
