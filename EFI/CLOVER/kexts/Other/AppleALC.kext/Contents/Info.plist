@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>18C54</string>
+	<string>18D38a</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.5</string>
+	<string>1.3.4</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.3.5</string>
+	<string>1.3.4</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -48,65 +48,6 @@
 			<string>com.apple.driver.AppleHDAHardwareConfigDriver</string>
 			<key>HDAConfigDefault</key>
 			<array>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283906408</integer>
-					<key>CodecName</key>
-					<string>Toleda -  Realtek ALC S1220A</string>
-					<key>ConfigData</key>
-					<data>
-					AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcd
-					AAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAF3
-					HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqAB
-					hx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0w
-					AacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
-					AgHnHJAB5x1hAeceSwHnHwEB9xzwAfcdAAH3
-					HgAB9x9AARcc8AEXHQABFx4AARcfQA==
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>3</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAg==
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>CodecID</key>
-					<integer>283906592</integer>
-					<key>CodecName</key>
-					<string>Toleda -  Realtek ALC1220</string>
-					<key>ConfigData</key>
-					<data>
-					AUccEAFHHUABRx4RAUcfkAFXHPABVx0AAVce
-					AAFXH0ABZxzwAWcdAAFnHgABZx9AAXcc8AF3
-					HQABdx4AAXcfQAGHHEABhx2QAYceoAGHH5AB
-					lxxgAZcdkAGXHoEBlx8CAaccUAGnHTABpx6B
-					AacfAQG3HHABtx1AAbceIQG3HwIB5xyQAecd
-					YQHnHksB5x8B
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>3</integer>
-					<key>WakeConfigData</key>
-					<data>
-					AUcMAgG3DAI=
-					</data>
-					<key>WakeVerbReinit</key>
-					<true/>
-				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
 					<data>
@@ -453,31 +394,6 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>44</integer>
-				</dict>
-				<dict>
-					<key>AFGLowPowerState</key>
-					<data>
-					AwAAAA==
-					</data>
-					<key>Codec</key>
-					<string>AD1988A by chrome</string>
-					<key>CodecID</key>
-					<integer>299112840</integer>
-					<key>ConfigData</key>
-					<data>
-					ARccQAEXHUABFx4hARcfAQEnHAABJx1AASce
-					EQEnHwEBNxzwATcdAAE3HgABNx9AAUccYAFH
-					HZABRx6gAUcfkAFXHIABVx0wAVcegQFXHwEB
-					ZxwgAWcdEAFnHgEBZx8BAXccUAF3HZABdx6B
-					AXcfAQGHHPABhx0AAYceAAGHH0ABtxygAbcd
-					8QG3HkUBtx8BAccc8AHHHQABxx4AAccfQAJH
-					HBACRx1gAkceAQJHHwECVxwwAlcdIAJXHgEC
-					Vx8B
-					</data>
-					<key>FuncGroup</key>
-					<integer>1</integer>
-					<key>LayoutID</key>
-					<integer>12</integer>
 				</dict>
 				<dict>
 					<key>AFGLowPowerState</key>
@@ -1593,6 +1509,35 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>56</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>DalianSky - Realtek ALC256 for Matebook X Pro</string>
+					<key>CodecID</key>
+					<integer>283902550</integer>
+					<key>ConfigData</key>
+					<data>
+					ASccMAEnHQEBJx6mAScfkAE3HPABNx0AATce
+					AAE3H0ABRxxBAUcdAQFHHhcBRx+QAYcc8AGH
+					HQABhx4AAYcfQAGXHCABlx0QAZcegQGXHwQB
+					pxzwAacdAAGnHgABpx9AAbccQAG3HQEBtx4X
+					AbcfkAHnHPAB5x0AAeceAAHnH0ACFxwQAhcd
+					EAIXHiECFx8EAUcMAg==
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>99</integer>
 					<key>WakeConfigData</key>
 					<data>
 					AUcMAg==
@@ -6649,11 +6594,11 @@
 					<key>ConfigData</key>
 					<data>
 					AUccEAFHHUABRx4RAUcfkAFHDAIBVxwgAVcd
-					EAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQF3
-					HPABdx0AAXceAAF3H0ABhxxAAYcdkAGHHqAB
-					hx+QAZccYAGXHZABlx6BAZcfAgGnHFABpx0w
-					AacegQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
-					AgHnHJAB5x1hAeceSwHnHwE=
+					EAFXHgEBVx8BAWccMAFnHWABZx4BAWcfAQGH
+					HEABhx2QAYceoAGHH5ABlxxgAZcdkAGXHoEB
+					lx8CAaccUAGnHTABpx6BAacfAQG3HHABtx1A
+					AbceIQG3HwIBtwwCAecckAHnHWEB5x5LAecf
+					AQ==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
@@ -6678,11 +6623,11 @@
 					<key>ConfigData</key>
 					<data>
 					AUccEAFHHUABRx4RAUcfkAFHDAIBVxzwAVcd
-					AAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAF3
-					HPABdx0AAXceAAF3H0ABhxxAAYcdYAGHHgEB
-					hx8BAZccYAGXHZABlx6gAZcfkAGnHFABpx0Q
-					AaceAQGnHwEBtxxwAbcdQAG3HiEBtx8CAbcM
-					AgHnHJAB5x1hAeceSwHnHwE=
+					AAFXHgABVx9AAWcc8AFnHQABZx4AAWcfQAGH
+					HEABhx1gAYceAQGHHwEBlxxgAZcdkAGXHqAB
+					lx+QAaccUAGnHRABpx4BAacfAQG3HHABtx1A
+					AbceIQG3HwIBtwwCAecckAHnHWEB5x5LAecf
+					AQ==
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
