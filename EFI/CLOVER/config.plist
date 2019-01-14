@@ -35,20 +35,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQCgCQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQCgCQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename TPD0._CRS to XCRS</string>
 					<key>Disabled</key>
 					<false/>
@@ -227,6 +213,20 @@
 					<key>Replace</key>
 					<data>
 					WFJFRwKgHg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
 					</data>
 				</dict>
 			</array>
