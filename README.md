@@ -1,3 +1,6 @@
+# I'm a Student Engineering, life and my university career is expensive and work is hard. My repositories are free, please, reward me. Thank you
+# [Reward me](paypal.me/johnnync13)<br />
+
 # Xiaomi-Notebook-Air-6200u
 
 CPU: I5-6200U <br />
