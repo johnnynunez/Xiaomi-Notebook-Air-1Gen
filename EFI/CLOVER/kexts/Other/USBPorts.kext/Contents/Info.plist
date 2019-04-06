@@ -22,24 +22,18 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBook9,1-XHC</key>
+		<key>MacBookPro13,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
 			<string>AppleUSBHostMergeProperties</string>
+			<key>IONameMatch</key>
+			<string>XHC</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>1500</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>1500</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>1500</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>1500</integer>
 				<key>port-count</key>
 				<data>
 				DwAAAA==
@@ -49,34 +43,43 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AQAAAA==
 						</data>
 					</dict>
-					<key>HS02</key>
+					<key>HS03</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>10</integer>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+					</dict>
+					<key>HS04</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						AgAAAA==
+						BAAAAA==
 						</data>
 					</dict>
-					<key>HS07</key>
+					<key>HS05</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
-						BwAAAA==
+						BQAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						DQAAAA==
@@ -85,7 +88,7 @@
 					<key>SS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>10</integer>
 						<key>port</key>
 						<data>
 						DwAAAA==
@@ -94,7 +97,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBook9,1</string>
+			<string>MacBookPro13,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
