@@ -39,20 +39,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>Rename TPD0._CRS to XCRS</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X0NSUwCgDg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WENSUwCgDg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename _Q1D</string>
 					<key>Disabled</key>
 					<false/>
