@@ -209,7 +209,7 @@
 					<key>Comment</key>
 					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1NUQQA=
@@ -223,7 +223,7 @@
 					<key>Comment</key>
 					<string>Rename _CRS to XCRS (TPD0)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
@@ -241,7 +241,7 @@
 					<key>Comment</key>
 					<string>Rename _CRS to XCRS (TPD1)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
