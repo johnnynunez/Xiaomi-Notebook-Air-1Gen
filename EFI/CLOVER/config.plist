@@ -83,7 +83,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -227,7 +227,7 @@
 					<key>Comment</key>
 					<string>Rename _CRS to XCRS (TPD1)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
@@ -245,7 +245,7 @@
 					<key>Comment</key>
 					<string>Rename USTP to XSTP</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					VVNUUAg=
@@ -288,7 +288,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>gfxrst=1 npci=0x2000 darkwake=0 dart=0</string>
+		<string>darkwake=0 dart=0 gfxrst=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -395,12 +395,14 @@
 				<data>
 				DwsDAAAHBgADAAAABAAAAA==
 				</data>
-				<key>#hda-gfx</key>
-				<string>onboard-1</string>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AAAbGQ==
 				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>
 				AQAAAA==
@@ -421,130 +423,131 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Skylake GT2 [HD Graphics 520]</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x00,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>name</key>
-				<string>pci8086,5914</string>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Host bridge</string>
+				<key>model</key>
+				<string>Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Host Bridge/DRAM Registers</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>USB controller</string>
 				<key>model</key>
 				<string>Sunrise Point-LP USB 3.0 xHCI Controller</string>
-				<key>name</key>
-				<string>pci8086,9d2f</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
-				<key>device_type</key>
-				<string>I2C</string>
-				<key>model</key>
-				<string>Sunrise Point-LP Serial IO I2C Controller #0</string>
-				<key>name</key>
-				<string>pci8086,9d60</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
-				<key>device_type</key>
-				<string>I2C</string>
-				<key>model</key>
-				<string>Sunrise Point-LP Serial IO I2C Controller #1</string>
-				<key>name</key>
-				<string>pci8086,9d61</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
+				<string>Internal</string>
 				<key>device_type</key>
-				<string>IMEI</string>
+				<string>Communication controller</string>
 				<key>model</key>
 				<string>Sunrise Point-LP CSME HECI #1</string>
-				<key>name</key>
-				<string>pci8086,9d3a</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
 			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
 				<key>model</key>
 				<string>Sunrise Point-LP SATA Controller [AHCI mode]</string>
-				<key>name</key>
-				<string>pci8085,9d03</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
 			<dict>
-				<key>reg-ltrovr</key>
-				<data>
-				AAQAAAAAAAA=
-				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PCI Express Root Port #1</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
 			<dict>
-				<key>reg-ltrovr</key>
-				<data>
-				AAQAAAAAAAA=
-				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PCI Express Root Port #5</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x7)</key>
+			<key>PciRoot(0x0)/Pci(0x1c,0x4)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>reg-ltrovr</key>
-				<data>
-				AAQAAAAAAAA=
-				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@2,0,0</string>
+				<key>device_type</key>
+				<string>Network controller</string>
+				<key>model</key>
+				<string>Wireless 8260</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x8)</key>
+			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
-				<key>reg-ltrovr</key>
-				<data>
-				AAQAAAAAAAA=
-				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>PCI bridge</string>
+				<key>model</key>
+				<string>Sunrise Point-LP PCI Express Root Port #9</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@3,0,0</string>
+				<key>device_type</key>
+				<string>Non-Volatile memory controller</string>
+				<key>model</key>
+				<string>NVMe SSD Controller SM951/PM951</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
 			<dict>
-				<key>name</key>
-				<string>pci8086,9d4e</string>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>ISA bridge</string>
+				<key>model</key>
+				<string>Wildcat Point-LP LPC Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
+				<string>Internal</string>
 				<key>device_type</key>
-				<string>PCHPMC Controller</string>
+				<string>Memory controller</string>
 				<key>model</key>
 				<string>Sunrise Point-LP PMC</string>
-				<key>name</key>
-				<string>pci8086,9d21</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x3) - 2</key>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>Audio device</string>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>hda-idle-support</key>
-				<string>1</string>
 				<key>layout-id</key>
 				<integer>30</integer>
 				<key>model</key>
-				<string>Realtek ALC255 Audio Controller</string>
-				<key>name</key>
-				<string>pci8086,9d71</string>
+				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
+				<string>Internal</string>
+				<key>device_type</key>
+				<string>SMBus</string>
 				<key>model</key>
 				<string>Sunrise Point-LP SMBus</string>
-				<key>name</key>
-				<data>
-				AAAIBp0j
-				</data>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -736,46 +739,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x,10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Skylake APIC fix</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				wegQD7bA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleAPIC</string>
-				<key>Replace</key>
-				<data>
-				vhcAAACQ
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
 				<false/>
@@ -801,7 +764,9 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
+		<data>
+		AAAKAA0A
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
