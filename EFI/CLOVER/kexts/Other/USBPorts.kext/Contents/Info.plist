@@ -58,9 +58,7 @@
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
-						<key>port</key>
-						<data>AwAAAA==</data>
+						<integer>10</integer>
 					</dict>
 					<key>HS04</key>
 					<dict>
