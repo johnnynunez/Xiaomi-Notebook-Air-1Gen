@@ -15,11 +15,11 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>AddMCHC</key>
 				<true/>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>FixADP1</key>
 				<false/>
 				<key>FixHDA</key>
@@ -31,7 +31,7 @@
 				<key>FixRTC</key>
 				<false/>
 				<key>FixShutdown</key>
-				<true/>
+				<false/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
@@ -105,20 +105,6 @@
 					<key>Replace</key>
 					<data>
 					WFBSVwI=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RUMwXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUNfXw==
 					</data>
 				</dict>
 				<dict>
@@ -225,17 +211,6 @@
 			<key>SuspendOverride</key>
 			<true/>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>ECDT</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<true/>
 		<key>HaltEnabler</key>
@@ -264,11 +239,11 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<false/>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
@@ -528,19 +503,19 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<true/>
+		<false/>
 		<key>SetIntelMaxBacklight</key>
-		<true/>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
 			<true/>
 			<key>FixOwnership</key>
-			<true/>
+			<false/>
 			<key>HighCurrent</key>
 			<false/>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
