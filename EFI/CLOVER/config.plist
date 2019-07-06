@@ -15,11 +15,11 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<false/>
+				<true/>
 				<key>AddMCHC</key>
 				<true/>
 				<key>AddPNLF</key>
-				<false/>
+				<true/>
 				<key>FixADP1</key>
 				<false/>
 				<key>FixHDA</key>
@@ -31,7 +31,7 @@
 				<key>FixRTC</key>
 				<false/>
 				<key>FixShutdown</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
@@ -111,7 +111,7 @@
 					<key>Comment</key>
 					<string>change EC0 to EC</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					RUMwXw==
@@ -143,7 +143,7 @@
 					<key>Comment</key>
 					<string>change TPD0.CRS to XCRS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
@@ -161,7 +161,7 @@
 					<key>Comment</key>
 					<string>change TPD1.CRS to XCRS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
@@ -179,7 +179,7 @@
 					<key>Comment</key>
 					<string>Rename USTP to XSTP</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					VVNUUAg=
@@ -221,9 +221,9 @@
 			<key>Rtc8Allowed</key>
 			<false/>
 			<key>SlpSmiAtWake</key>
-			<false/>
+			<true/>
 			<key>SuspendOverride</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -264,11 +264,11 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<true/>
+		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
-		<false/>
+		<true/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
@@ -528,9 +528,9 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<false/>
+		<true/>
 		<key>SetIntelMaxBacklight</key>
-		<false/>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -732,6 +732,46 @@
 				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>External icons patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.12.x,10.13.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.AppleAHCIPort</string>
+				<key>Replace</key>
+				<data>
+				SW50ZXJuYWw=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Skylake APIC fix</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				wegQD7bA
+				</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Name</key>
+				<string>com.apple.driver.AppleAPIC</string>
+				<key>Replace</key>
+				<data>
+				vhcAAACQ
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -746,11 +786,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>05/25/2019</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP131.88Z.F000.B00.1905251430</string>
+		<string>MBP131.88Z.F000.B00.1812191047</string>
 		<key>Board-ID</key>
 		<string>Mac-473D31EABEB93F9B</string>
 		<key>BoardManufacturer</key>
@@ -766,7 +806,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>234.0.0.0.0</string>
+		<string>229.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
