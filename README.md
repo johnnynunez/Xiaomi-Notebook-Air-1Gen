@@ -2,6 +2,9 @@
 # [Reward me](https://www.paypal.me/johnnync13)<br />
 
 # Xiaomi-Notebook-Air-6200u
+Important! 
+Use the last Bios A09
+http://bbs.xiaomi.cn/t-37742666
 
 CPU: I5-6200U <br />
 
