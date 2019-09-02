@@ -19,7 +19,7 @@
 				<key>AddMCHC</key>
 				<true/>
 				<key>AddPNLF</key>
-				<false/>
+				<true/>
 				<key>FixADP1</key>
 				<false/>
 				<key>FixHDA</key>
@@ -40,10 +40,16 @@
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<true/>
 					<key>Find</key>
-					<data>X1BUUwE=</data>
+					<data>
+					X1BUUwE=
+					</data>
 					<key>Replace</key>
-					<data>WlBUUwE=</data>
+					<data>
+					WlBUUwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -51,9 +57,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1ExRA==</data>
+					<data>
+					X1ExRA==
+					</data>
 					<key>Replace</key>
-					<data>X1ExTA==</data>
+					<data>
+					X1ExTA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -61,9 +71,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1ExQw==</data>
+					<data>
+					X1ExQw==
+					</data>
 					<key>Replace</key>
-					<data>X1ExSA==</data>
+					<data>
+					X1ExSA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -71,19 +85,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA, optionally pair with SSDT-SATA.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>U0FUMA==</data>
-					<key>Replace</key>
-					<data>U0FUQQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -91,9 +99,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R1BSVwI=</data>
+					<data>
+					R1BSVwI=
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwI=</data>
+					<data>
+					WFBSVwI=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -101,11 +113,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1NUQQ==</data>
+					<data>
+					X1NUQQ==
+					</data>
 					<key>Replace</key>
-					<data>WFNUQQ==</data>
+					<data>
+					WFNUQQ==
+					</data>
 					<key>TgtBridge</key>
-					<data>R1BJMA==</data>
+					<data>
+					R1BJMA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -113,11 +131,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0NSUw==</data>
+					<data>
+					X0NSUw==
+					</data>
 					<key>Replace</key>
-					<data>WENSUw==</data>
+					<data>
+					WENSUw==
+					</data>
 					<key>TgtBridge</key>
-					<data>VFBEMA==</data>
+					<data>
+					VFBEMA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -125,11 +149,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0NSUw==</data>
+					<data>
+					X0NSUw==
+					</data>
 					<key>Replace</key>
-					<data>WENSUw==</data>
+					<data>
+					WENSUw==
+					</data>
 					<key>TgtBridge</key>
-					<data>VFBEMQ==</data>
+					<data>
+					VFBEMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -137,19 +167,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>VVNUUAg=</data>
+					<data>
+					VVNUUAg=
+					</data>
 					<key>Replace</key>
-					<data>WFNUUAg=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HPET._STA to XSTA, pair with SSDT-HPET.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1NUQQCgCEg=</data>
-					<key>Replace</key>
-					<data>WFNUQQCgCEg=</data>
+					<data>
+					WFNUUAg=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -157,22 +181,26 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1NUQQCgDZNQ</data>
+					<data>
+					X1NUQQCgDZNQ
+					</data>
 					<key>Replace</key>
-					<data>WFNUQQCgDZNQ</data>
+					<data>
+					WFNUQQCgDZNQ
+					</data>
 				</dict>
 			</array>
 			<key>Rtc8Allowed</key>
 			<false/>
 			<key>SlpSmiAtWake</key>
-			<true/>
+			<false/>
 			<key>SuspendOverride</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>FixHeaders</key>
 		<true/>
 		<key>HaltEnabler</key>
-		<true/>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -240,59 +268,99 @@
 				<key>#framebuffer-con0-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con0-type</key>
-				<data>AAQAAA==</data>
+				<data>
+				AAQAAA==
+				</data>
 				<key>#framebuffer-con1-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con1-flags</key>
-				<data>hwEAAA==</data>
+				<data>
+				hwEAAA==
+				</data>
 				<key>#framebuffer-con1-pipe</key>
-				<data>EgAAAA==</data>
+				<data>
+				EgAAAA==
+				</data>
 				<key>#framebuffer-con1-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>#framebuffer-con2-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con2-flags</key>
-				<data>hwEAAA==</data>
+				<data>
+				hwEAAA==
+				</data>
 				<key>#framebuffer-con2-pipe</key>
-				<data>EgAAAA==</data>
+				<data>
+				EgAAAA==
+				</data>
 				<key>#framebuffer-con2-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>#framebuffer-con3-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-con3-flags</key>
-				<data>hwEAAA==</data>
+				<data>
+				hwEAAA==
+				</data>
 				<key>#framebuffer-con3-pipe</key>
-				<data>EgAAAA==</data>
+				<data>
+				EgAAAA==
+				</data>
 				<key>#framebuffer-con3-type</key>
-				<data>AAgAAA==</data>
+				<data>
+				AAgAAA==
+				</data>
 				<key>#framebuffer-patch0-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-patch0-find</key>
-				<data>ChMDAAAABgAAAAAAAAAAAA==</data>
+				<data>
+				ChMDAAAABgAAAAAAAAAAAA==
+				</data>
 				<key>#framebuffer-patch0-replace</key>
-				<data>DxMDAAAABgAAAAAAAAAAAA==</data>
+				<data>
+				DxMDAAAABgAAAAAAAAAAAA==
+				</data>
 				<key>#framebuffer-patch1-enable</key>
 				<integer>1</integer>
 				<key>#framebuffer-patch1-find</key>
-				<data>CgsDAAAHBgADAAAABAAAAA==</data>
+				<data>
+				CgsDAAAHBgADAAAABAAAAA==
+				</data>
 				<key>#framebuffer-patch1-replace</key>
-				<data>DwsDAAAHBgADAAAABAAAAA==</data>
+				<data>
+				DwsDAAAHBgADAAAABAAAAA==
+				</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAbGQ==</data>
+				<data>
+				AAAbGQ==
+				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal</string>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>
+				AACQAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
 				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
+				<data>
+				AAAAgA==
+				</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
@@ -421,15 +489,15 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<false/>
+		<true/>
 		<key>SetIntelMaxBacklight</key>
-		<false/>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<true/>
-			<key>FixOwnership</key>
 			<false/>
+			<key>FixOwnership</key>
+			<true/>
 			<key>HighCurrent</key>
 			<false/>
 			<key>Inject</key>
@@ -528,9 +596,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>ILniAAAADzA=</data>
+				<data>
+				ILniAAAADzA=
+				</data>
 				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
+				<data>
+				ILniAAAAkJA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -538,11 +610,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRE</data>
+				<data>
+				igKEwHRE
+				</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>igKEwOtE</data>
+				<data>
+				igKEwOtE
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -550,11 +626,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRC</data>
+				<data>
+				igKEwHRC
+				</data>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Replace</key>
-				<data>igKEwOtC</data>
+				<data>
+				igKEwOtC
+				</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
@@ -565,13 +645,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelLpssI2CController</string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -579,13 +663,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelLpssI2C</string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -593,45 +681,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>External icons patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>RXh0ZXJuYWw=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x,10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleAHCIPort</string>
-				<key>Replace</key>
-				<data>SW50ZXJuYWw=</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Skylake APIC fix</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>wegQD7bA</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.13.x</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleAPIC</string>
-				<key>Replace</key>
-				<data>vhcAAACQ</data>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
 			</dict>
 		</array>
 	</dict>
@@ -647,11 +707,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>12/19/2018</string>
+		<string>06/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP131.88Z.F000.B00.1812191047</string>
+		<string>MBP131.88Z.F000.B00.1906171613</string>
 		<key>Board-ID</key>
 		<string>Mac-473D31EABEB93F9B</string>
 		<key>BoardManufacturer</key>
@@ -667,7 +727,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>229.0.0.0.0</string>
+		<string>236.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
