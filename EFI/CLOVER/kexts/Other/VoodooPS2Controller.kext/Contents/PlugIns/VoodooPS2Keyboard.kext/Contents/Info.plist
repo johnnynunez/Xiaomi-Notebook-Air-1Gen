@@ -208,9 +208,15 @@
 						<array>
 							<string>;This section maps ps2 codes (packet format) received quickly (macros) into fake ps2 codes (packet format)</string>
 							<string>;Fn+F1</string>
-							<data>//8CbgAAAAACWwEZ</data>
-							<data>//8C7gAAAAAC2wGZ</data>
-							<data>//8C7gAAAAABmQLb</data>
+							<data>
+							//8CbgAAAAACWwEZ
+							</data>
+							<data>
+							//8C7gAAAAAC2wGZ
+							</data>
+							<data>
+							//8C7gAAAAABmQLb
+							</data>
 						</array>
 						<key>MaximumMacroTime</key>
 						<integer>35000000</integer>
@@ -282,7 +288,6 @@
 						<string>;Items must be strings in the form of scanfrom=scanto (in hex)</string>
 						<string>e027=0;disable discrete fnkeys toggle</string>
 						<string>e028=0;disable discrete trackpad toggle</string>
-						<string>e037=0</string>
 					</array>
 					<key>HIDF12EjectDelay</key>
 					<integer>250</integer>
@@ -291,7 +296,7 @@
 					<key>Make Application key into Apple Fn key</key>
 					<false/>
 					<key>Make Application key into right windows</key>
-					<false/>
+					<true/>
 					<key>Make right modifier keys into Hangul and Hanja</key>
 					<false/>
 					<key>SleepPressTime</key>
@@ -299,7 +304,7 @@
 					<key>Swap capslock and left control</key>
 					<false/>
 					<key>Swap command and option</key>
-					<false/>
+					<true/>
 					<key>Use ISO layout keyboard</key>
 					<false/>
 					<key>alt_handler_id</key>
