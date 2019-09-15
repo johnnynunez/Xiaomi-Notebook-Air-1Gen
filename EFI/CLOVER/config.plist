@@ -707,13 +707,13 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/17/2019</string>
+		<string>07/24/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP131.88Z.F000.B00.1906171613</string>
+		<string>MBP132.88Z.F000.B00.1907242326</string>
 		<key>Board-ID</key>
-		<string>Mac-473D31EABEB93F9B</string>
+		<string>Mac-66E35819EE2D0D05</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardType</key>
@@ -727,7 +727,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>236.0.0.0.0</string>
+		<string>259.71.1.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -743,7 +743,7 @@
 		<key>PlatformFeature</key>
 		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro13,1</string>
+		<string>MacBookPro13,2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
