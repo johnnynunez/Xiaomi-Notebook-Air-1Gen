@@ -41,7 +41,7 @@
 					<key>Comment</key>
 					<string>_WAK to ZWAK(1,S)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1dBSwk=</data>
 					<key>Replace</key>
@@ -51,7 +51,7 @@
 					<key>Comment</key>
 					<string>_PTS to ZPTS(1,N)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1BUUwE=</data>
 					<key>Replace</key>
@@ -234,7 +234,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
