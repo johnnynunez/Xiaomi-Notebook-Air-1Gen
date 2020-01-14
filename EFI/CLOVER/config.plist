@@ -525,7 +525,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
