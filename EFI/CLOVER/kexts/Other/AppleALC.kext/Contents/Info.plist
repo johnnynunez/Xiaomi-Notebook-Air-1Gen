@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4.5</string>
+	<string>1.4.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.4.5</string>
+	<string>1.4.6</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -1188,6 +1188,32 @@
 					<integer>1</integer>
 					<key>LayoutID</key>
 					<integer>15</integer>
+					<key>WakeVerbReinit</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>AFGLowPowerState</key>
+					<data>
+					AwAAAA==
+					</data>
+					<key>Codec</key>
+					<string>MacPeet - Realtek ALC235 for ASUS GL553VD</string>
+					<key>CodecID</key>
+					<integer>283902517</integer>
+					<key>ConfigData</key>
+					<data>
+					AhccIAIXHRACFx4rAhcfAAG3HDABtx0AAbce
+					pwG3H5ABlxwwAZcdEAGXHosBlx8BAUccQAFH
+					HQABRx4XAUcfkAFHDAI=
+					</data>
+					<key>FuncGroup</key>
+					<integer>1</integer>
+					<key>LayoutID</key>
+					<integer>16</integer>
+					<key>WakeConfigData</key>
+					<data>
+					AUcMAg==
+					</data>
 					<key>WakeVerbReinit</key>
 					<true/>
 				</dict>
@@ -6333,7 +6359,7 @@
 					<integer>283903744</integer>
 					<key>ConfigData</key>
 					<data>
-					AZceYQGXByU=
+					AZceYQGXByUBtx4R
 					</data>
 					<key>FuncGroup</key>
 					<integer>1</integer>
