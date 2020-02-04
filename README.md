@@ -19,9 +19,11 @@ HDMI video and audio <br />
 USB 3.0 <br />
 Built-in camera <br />
 Built-in mic <br />
-3. What's Not Working <br />
+Intel Bluetooth <br />
 Wifi Intel <br />
-Bluetooth <br />
+
+3. What's Not Working <br />
+
 ## Rebuild Cache to work trackpad
 Terminal: sudo kextcache -i /
 
