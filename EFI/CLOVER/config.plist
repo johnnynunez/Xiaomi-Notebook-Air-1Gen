@@ -470,8 +470,6 @@
 		<false/>
 		<key>KernelLapic</key>
 		<false/>
-		<key>KernelPm</key>
-		<false/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
