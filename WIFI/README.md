@@ -1,12 +1,5 @@
-* Works on 10.15.x but works better works on Mojave. <br />
+* Works on 10.15.x<br />
 You must delete SSDT-DRP08.aml if exist in clover/ACPI/patched/ 
-
-* Kext Installation in 10.15.x:
-Place IO80211Family.kext on the first floor /Library/Extensions, repair permissions, rebuild Cache <br />
-Do not open the system configuration, otherwise it will restart automatically.
-
-* Kext Installation in 10.14.x: <br />
-Not install IO80211Family.kext
 
 * Installation AppleIntelWifi: <br />
 1. Extract the driver file into a .kext file and place it on your desktop.
