@@ -146,7 +146,7 @@
 				<key>Comment</key>
 				<string>USB Properties</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-USB.aml</string>
 			</dict>
@@ -529,7 +529,7 @@
 				<key>model</key>
 				<string>Sunrise Point-LP SMBus</string>
 			</dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
+			<key>PciRoot(0x0)/Pci(0x02,0x0)</key>
 			<dict>
 				<key># DVMT-prealloc</key>
 				<string>32MB BIOS, 19MB framebuffer, 9MB cursor bytes (credit RehabMan)</string>
@@ -619,8 +619,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -637,8 +635,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -655,8 +651,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -673,8 +667,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -691,8 +683,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -700,7 +690,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -725,8 +715,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -775,8 +763,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -809,8 +795,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -818,7 +802,7 @@
 				<key>Comment</key>
 				<string>USB Ports</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
 				<key>MaxKernel</key>
@@ -827,8 +811,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -845,8 +827,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -863,8 +843,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -881,8 +859,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -899,8 +875,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -933,8 +907,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -951,8 +923,6 @@
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>BundlePath</key>
@@ -1002,6 +972,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>USBPorts.kext</string>
+				<key>Comment</key>
+				<string>USB</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -1041,8 +1027,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>MatchKernel</key>
-				<string></string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -1071,8 +1055,6 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
-				<key>MatchKernel</key>
-				<string>18.5.0</string>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -1105,8 +1087,6 @@
 			<true/>
 			<key>XhciPortLimit</key>
 			<false/>
-			<key>ThirdPartyTrim</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -1232,18 +1212,72 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>DataHub</key>
+		<dict>
+			<key>BoardProduct</key>
+			<string>Mac-473D31EABEB93F9B</string>
+			<key>SystemProductName</key>
+			<string>MacBookPro13,1</string>
+		</dict>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<true/>
 			<key>MLB</key>
-			<string>C02646207CDHMHK1F</string>
+			<string>C02736700CDHMHK1F</string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro13,1</string>
-			<key>SystemSerialNumber</key>
-			<string>C02SP08UGVC1</string>
-			<key>SystemUUID</key>
-			<string>2FF78E81-6687-41F3-881F-F890CEEF925E</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>01/31/2020</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>243.0.0.0.0</string>
+			<key>BoardAssetTag</key>
+			<string></string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-473D31EABEB93F9B</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>1.0</string>
+			<key>ChassisAssetTag</key>
+			<string>MacBook-Aluminum</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisType</key>
+			<integer>9</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-473D31EABEB93F9B</string>
+			<key>FirmwareFeatures</key>
+			<data>duEP/AAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>f/8f/wAAAAA=</data>
+			<key>MemoryFormFactor</key>
+			<integer>0</integer>
+			<key>PlatformFeature</key>
+			<integer>26</integer>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>SystemFamily</key>
+			<string>MacBook Pro</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>MacBookPro13,1</string>
+			<key>SystemSKUNumber</key>
+			<string>Mac-473D31EABEB93F9B</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
