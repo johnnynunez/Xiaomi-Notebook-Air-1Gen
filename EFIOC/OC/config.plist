@@ -72,6 +72,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Map Keyboard</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-KBDM.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Some incompatible LPC</string>
 				<key>Enabled</key>
 				<true/>
