@@ -977,7 +977,7 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 		</array>
-		<key>Block</key>
+		<key>Delete</key>
 		<array/>
 		<key>Emulate</key>
 		<dict>
