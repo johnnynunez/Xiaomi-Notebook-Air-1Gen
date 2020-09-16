@@ -5,3 +5,5 @@ https://github.com/johnnync13/Xiaomi-Notebook-Air-1Gen
 This EFI remove many unnecessary files.
 
 BigSur is surpported.
+
+The kexts are official compiled version.
