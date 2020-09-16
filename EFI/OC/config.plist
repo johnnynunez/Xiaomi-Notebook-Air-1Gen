@@ -1229,7 +1229,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string></string>
+			<string>C02621609QXHMHKAD</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
@@ -1237,9 +1237,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro13,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02SLHACGVC1</string>
+			<string>C02RRJYEGVC1</string>
 			<key>SystemUUID</key>
-			<string>D97AC407-93D7-4FDE-8F97-75A48FE0B7A4</string>
+			<string>D52C0746-084F-4306-926B-180CC082F08B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
